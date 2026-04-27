@@ -1,0 +1,71 @@
+tailwind.config = {
+    darkMode: "class",
+    theme: {
+        extend: {
+            colors: {
+                "on-secondary-fixed-variant": "var(--color-on-secondary-fixed-variant)",
+                "on-surface": "var(--color-on-surface)",
+                "secondary-container": "var(--color-secondary-container)",
+                "surface-container-lowest": "var(--color-surface-container-lowest)",
+                "tertiary-fixed-dim": "var(--color-tertiary-fixed-dim)",
+                "primary-fixed-dim": "var(--color-primary-fixed-dim)",
+                "on-secondary-container": "var(--color-on-secondary-container)",
+                "on-secondary-fixed": "var(--color-on-secondary-fixed)",
+                "outline": "var(--color-outline)",
+                "on-primary-fixed": "var(--color-on-primary-fixed)",
+                "on-tertiary-fixed-variant": "var(--color-on-tertiary-fixed-variant)",
+                "tertiary-fixed": "var(--color-tertiary-fixed)",
+                "secondary-fixed": "var(--color-secondary-fixed)",
+                "on-primary-fixed-variant": "var(--color-on-primary-fixed-variant)",
+                "on-error-container": "var(--color-on-error-container)",
+                "tertiary": "var(--color-tertiary)",
+                "tertiary-container": "var(--color-tertiary-container)",
+                "surface-container-low": "var(--color-surface-container-low)",
+                "background": "var(--color-background)",
+                "error-container": "var(--color-error-container)",
+                "surface-bright": "var(--color-surface-bright)",
+                "on-tertiary-container": "var(--color-on-tertiary-container)",
+                "surface-container-highest": "var(--color-surface-container-highest)",
+                "inverse-surface": "var(--color-inverse-surface)",
+                "on-error": "var(--color-on-error)",
+                "on-tertiary-fixed": "var(--color-on-tertiary-fixed)",
+                "surface": "var(--color-surface)",
+                "surface-container-high": "var(--color-surface-container-high)",
+                "on-surface-variant": "var(--color-on-surface-variant)",
+                "on-secondary": "var(--color-on-secondary)",
+                "primary": "var(--color-primary)",
+                "inverse-on-surface": "var(--color-inverse-on-surface)",
+                "on-primary-container": "var(--color-on-primary-container)",
+                "surface-dim": "var(--color-surface-dim)",
+                "on-tertiary": "var(--color-on-tertiary)",
+                "on-primary": "var(--color-on-primary)",
+                "surface-variant": "var(--color-surface-variant)",
+                "outline-variant": "var(--color-outline-variant)",
+                "inverse-primary": "var(--color-inverse-primary)",
+                "primary-fixed": "var(--color-primary-fixed)",
+                "on-background": "var(--color-on-background)",
+                "secondary-fixed-dim": "var(--color-secondary-fixed-dim)",
+                "surface-tint": "var(--color-surface-tint)",
+                "secondary": "var(--color-secondary)",
+                "error": "var(--color-error)",
+                "primary-container": "var(--color-primary-container)",
+                "surface-container": "var(--color-surface-container)"
+            },
+            borderRadius: { DEFAULT: "0.125rem", lg: "0.25rem", xl: "0.5rem", full: "0.75rem" },
+            spacing: { "container-max": "1280px", gutter: "24px", "margin-desktop": "80px", "margin-mobile": "20px", "section-padding": "120px" },
+            fontFamily: {
+                "body-lg": ["Manrope"], "body-md": ["Manrope"], "headline-lg": ["Noto Serif"], "headline-md": ["Noto Serif"],
+                "headline-xl": ["Noto Serif"], "label-caps": ["Manrope"], headline: ["Noto Serif"], display: ["Noto Serif"],
+                body: ["Manrope"], label: ["Manrope"]
+            },
+            fontSize: {
+                "body-lg": ["18px", { lineHeight: "1.6", letterSpacing: "0.01em", fontWeight: "400" }],
+                "body-md": ["16px", { lineHeight: "1.6", letterSpacing: "0", fontWeight: "400" }],
+                "headline-lg": ["48px", { lineHeight: "1.2", letterSpacing: "-0.01em", fontWeight: "400" }],
+                "headline-md": ["32px", { lineHeight: "1.3", letterSpacing: "0", fontWeight: "400" }],
+                "headline-xl": ["64px", { lineHeight: "1.1", letterSpacing: "-0.02em", fontWeight: "400" }],
+                "label-caps": ["12px", { lineHeight: "1.0", letterSpacing: "0.2em", fontWeight: "600" }]
+            }
+        }
+    }
+};
